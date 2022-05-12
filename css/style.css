@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .encabezado img{
+    width: 100px;
+    height: 80px;
+   
+}
+.encabezado{
+    background-color: #111823;
+    width: 100%;
+     padding: 0 50px ;
+     color: white;
+    */
+/* } */
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden ;
+}
+/* .navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    position: relative; }
+ .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem; 
+     
+} */
+
+.Main{background-color: #E53644;
+    width: 100%;
+}
+.Inicio h1{
+    font-family: 'Updock', cursive;
+    text-align: center;
+color: white;}
+.Inicio p{
+        color: white;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;}
+.Inicio iframe{
+            position: relative;
+            left: 23rem;
+           border-radius: 35px;}
+
+
+.Mapas h2{
+    font-family: 'Updock', cursive;
+    text-align: center;
+    color: white;
+    
+}    
+.Mapas p{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+    
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: -3rem;
+}
+.card{
+    background: #E53644;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px 15px;
+    color: white;
+    box-shadow: #111823  2px  2px 2px 3px ;
+}
+.imagen{
+    background-image: url('/Imagenes/Bind.jpg');
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px;    
+}
+.imagen2{
+    background-image: url('/Imagenes/Haven.jpg');
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px;    
+}
+.imagen3{
+    background-image: url('/Imagenes/split.jpg');
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px;    
+}
+.container h2 {
+    text-align: center   
+}
+.container p{
+    text-align: center   
+}
+.card :hover{
+    background-color: #E53644;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.contenedor{
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+padding: -3rem;
+
+ }
+ .tarjeta{
+    background: #E53644;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px 15px;
+    color: white;
+    box-shadow: #111823  2px  2px 2px 3px ;
+} 
+.img{
+    background-image: url('/Imagenes/Brezze.jpg');
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px}
+    .img2{
+        background-image: url('/Imagenes/Ascent.jpg');
+        background-size: cover;
+        height: 100px;
+        margin-bottom: 15px;
+        border-radius: 15px 15px}
+        .img3{
+            background-image: url('/Imagenes/Icebox.webp');
+            background-size: cover;
+            height: 100px;
+            margin-bottom: 15px;
+            border-radius: 15px 15px}
+
+
+.tarjeta2{
+    background: #E53644;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px 15px;
+    color: white;
+    box-shadow: #111823  2px  2px 2px 3px ;
+}  
+.tarjeta :hover{
+    background-color: #E53644;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;}
+.contenedor h2 {
+    text-align: center   
+}
+.contenedor p{
+    text-align: center   
+} 
+.Valorant {
+    background-color: #131114;
+     
+}
+.Valorant img{
+    width: 100px;
+    align-items: center;
+    margin-left: 38rem;
+}
+.menu{
+    display: none;
+}
+/* Chamber */
+
+.main{
+    background-color: #F5D283;
+display: grid;
+place-items: center center;
+}
+.Chamber h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center}
+    .Chamber h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center 
+    }
+    .Chamber img{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        padding: 20px;
+        grid-gap: 40px;
+        width: 300px;
+        place-items: center center;
+    }
+    .Chamber p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .Footer{
+        background-color: #101823;
+    }
+    .Footer img{
+        width: 100px;}
+        .container-chamber{
+            display: flex;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+            padding: 20px;
+            grid-gap: 40px ;
+          ;
+        }
+        .habilidad{
+            background-image: url('/Imagenes/fondonegro.jpg');
+            border-radius: 20px;
+            box-shadow: 0 0 30px #ffff(0,0,0,0.18);
+        
+        }
+        .conte{
+            position: relative;
+            clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+            
+            background-size: cover;
+        }
+        .conte2 {
+            position: relative;
+            clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+            
+            background-size: cover;}
+            .conte3{
+                position: relative;
+                clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+                
+                background-size: cover;}
+                .conte4{
+                    position: relative;
+                    clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+                    
+                    background-size: cover;}
+        .conte img{
+            width: 100%;
+             display: block;
+        border-radius: 20px 20px 0 0;}
+        .details{
+            padding: 20px 10px;
+        }
+        .details h3{
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 10px 0 15px 0;
+            text-align: center;
+        }
+        .details p{
+            color: aliceblue;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: 400;
+            text-align: center;
+        }
+/* Reyna */
+.Reyna h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+ }
+ .Reyna h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+ }
+ .Reyna p{
+     text-align: center;
+ }
+ .mainnn{background-color: #FF6CFF ;}
+ .Reyna img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    width: 300px;
+    place-items: center center;
+ }
+.reyna-container{
+    display: flex;
+    width: 600px;
+    height: auto;
+    background-color:#FF6CFF;
+    border-radius: 2px
+}
+.footer img{
+    width: 60px;
+    background-color: #FF6CFF;
+    position: relative;
+    
+}
+/* Omen */
+.Omen h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+}
+.Omen h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center 
+}
+.Omen p{
+    text-align: center;
+}
+
+.mainomen{
+    background-color: #898990;
+}
+.omen-container{
+    display: flex;
+    width: 600px;
+    height: auto;
+    background-color:#898990;
+    border-radius: 2px
+}
+.fOOter img{
+    width: 60px;
+    background-color: #898990;
+    position: relative;
+    }
+    .Omen img{display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        padding: 20px;
+        grid-gap: 40px;
+        width: 300px;
+        place-items: center center}
+
+/* Sova */
+.mainn{
+    background-color: #2C47CA;
+}
+.Sova h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center}
+.Sova h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+}
+.Sova img{
+    display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        padding: 20px;
+        grid-gap: 40px;
+        width: 300px;
+        place-items: center center;
+}
+.Sova p{text-align: center;}
+
+
+    @media screen and (max-width: 768px) {
+    a{display: flex;
+    }
+    .Inicio iframe{
+        position: relative;
+        left: 7rem;
+       border-radius: 20px;}
+       .Valorant img{
+        width: 100px;
+        align-items: center;
+        margin-left: 22rem;
+       }
+       .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: -3rem;}
+
+
+}
+@media screen and (max-width: 600px){
+.navbar a{display:flex
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.Inicio iframe{
+    position: relative;
+    left: 1.5rem;
+   border-radius: 20px;}
+   .Valorant img{
+    width: 100px;
+    align-items: center;
+    margin-left: 15rem;
+   }
+   .encabezado img{
+    width: 100px;
+    height: 80px;
+    flex-direction: row;}
+}
+@media screen and (max-width: 320px){
+    .Inicio iframe{
+        width: 300px;
+        height: 200px;
+        left: 0.5rem;
+       border-radius: 20px;}
+.container{display: block;}
+.contenedor{display: block;
+}
+.Valorant img{
+    width: 100px;
+    align-items: center;
+    margin-left: 7rem;
+    
+}
+
+.conte2 {
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+    
+    background-size: cover;}
+    .conte3{
+        position: relative;
+        clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+        background-size: cover;
+    width: 250px;}
+        
+        .conte4{
+            position: relative;
+            clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+            background-size: cover;
+        width: 250px;}
+            .Chamber p{
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 300px;}
+            .Chamber h1{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: left;
+               }
+                .Chamber h2{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: left;
+                }
+                .cards{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+                    padding: 20px;
+                    grid-gap: 40px ;
+                    
+                }
+                .habilidad{
+                    background-image: url('./Imagenes/fondonegro.jpg');
+                    border-radius: 20px;
+                    box-shadow: 0 0 30px #ffff(0,0,0,0.18);
+                    width: 250px;
+                }
+                .details p{
+                    color: aliceblue;
+                    font-size: 15px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    text-align: left;
+                    width: 250px;
+                }  
+                .details img{
+                    width: 250px;
+                }
+                .Reyna h1 {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: left;
+                 }
+                 .Reyna h2{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: left;
+                 }
+                 .Reyna p{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 300px;
+                 }  
+                 .Omen h1 {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: left
+                }
+                .Omen h2{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: left
+                }
+                .Omen p{
+                    text-align: left ; }
+                    .Sova h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        text-align: left }
+                    .Sova h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        text-align: left
+                    }
+                    
+                    }
+                    .Sova p{text-align: left}                
+}
+
+@media screen and (max-width: 300px){
+    .conte2 {
+        position: relative;
+        clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+        
+        background-size: cover;}
+        .conte3{
+            position: relative;
+            clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+            background-size: cover;
+        width: 250px;}
+            
+            .conte4{
+                position: relative;
+                clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
+                background-size: cover;}
+                .Chamber p{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 300px;}
+                .Chamber h1{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: left;
+                   }
+                    .Chamber h2{
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        text-align: left;
+                    }
+                    .cards{
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+                        padding: 20px;
+                        grid-gap: 40px ;
+                        
+                    }
+                    .habilidad{
+                        background-image: url('./Imagenes/fondonegro.jpg');
+                        border-radius: 20px;
+                        box-shadow: 0 0 30px #ffff(0,0,0,0.18);
+                        width: 250px;
+                    }
+                    .details p{
+                        color: aliceblue;
+                        font-size: 15px;
+                        line-height: 30px;
+                        font-weight: 400;
+                        text-align: left;
+                        width: 250px;
+                    }
+       
+}
