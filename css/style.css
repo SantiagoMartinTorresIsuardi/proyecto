@@ -184,6 +184,7 @@ padding: -3rem;
 } 
 .Valorant {
     background-color: #131114;
+    padding: 1rem;
      
 }
 .Valorant img{
@@ -315,6 +316,7 @@ place-items: center center;
     width: 60px;
     background-color: #FF6CFF;
     position: relative;
+   
     
 }
 /* Omen */
@@ -512,8 +514,9 @@ place-items: center center;
                     }
                     
                     }
-                    .Sova p{text-align: left}                
-}
+                    .Sova p{text-align: left
+                    } 
+                               
 
 @media screen and (max-width: 300px){
     .conte2 {
